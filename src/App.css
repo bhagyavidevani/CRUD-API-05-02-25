@@ -39,11 +39,12 @@ ul{
   position: relative;
 }
 .addbook form{
-  background-color: #7e5332b9;
+  background-color:  rgba(126, 83, 50, 0.7);
   width: 590px;
   border-radius: 5px;
   padding: 20px 20px;
   position: absolute;
+  backdrop-filter: blur(10px); 
   top: 33px;
   left: 30%;
 }
