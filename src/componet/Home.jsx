@@ -35,7 +35,7 @@ function Home() {
                   <span className="category">{book.category}</span>
                   <Card.Text className="pt-3">{book.date}</Card.Text>
                   <Card.Text> ${book.price}</Card.Text>
-                  <Card.Text>{book.pages}</Card.Text>
+                  <Card.Text>{book.page}</Card.Text>
                   <Card.Text>{book.description}</Card.Text>
                   <div className="text-center">
                     <Button className="me-3" onClick={() => handleEdit(book.id)}>Edit</Button>
